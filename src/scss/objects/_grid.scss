@@ -1,0 +1,37 @@
+/* #GRID
+   ========================================================================== */
+
+.o-grid__header {
+    grid-area: header;
+    background-color: var(--blue-color);
+    color: var(--white-color);
+}
+
+.o-grid__sidebar {
+    grid-area: sidebar;
+    background-color: var(--green-color);
+}
+
+.o-grid__main {
+    grid-area: main;
+    min-height: 100vh;
+    background-color: var(--light-blue-color);
+}
+
+.o-grid {
+    display: grid;
+    grid-template-areas:
+        'header'
+        'sidebar'
+        'main';
+
+    @media only screen and (min-width: 768px) {
+        grid-template-areas:
+            'header header header header'
+            'main main main sidebar';
+    }
+}
+
+.o-grid__item {
+    padding: 1rem;
+}

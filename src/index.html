@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simple responsive layout</title>
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+    <div class="o-grid">
+        <header class="o-grid__item  o-grid__header">
+            <div class="c-header">
+                <span class="u-h2">Header</span>
+                <form class="c-form">
+                    <input class="c-form__control" id="search" type="search" aria-label="Search">
+                    <button class="c-btn c-btn--icon" type="button" aria-labelledby="search">
+                        <svg class="c-btn__icon">
+                            <use xlink:href="images/icons.svg#search"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </header>
+        <main class="o-grid__item  o-grid__main">
+            <article>
+                <h1 class="u-h2">Content</h1>
+            </article>
+        </main>
+        <aside class="o-grid__item  o-grid__sidebar">
+            <h2>Sidebar</h2>
+        </aside>
+    </div>
+
+    <!-- Include JS which generates console logs for the js exercise -->
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>

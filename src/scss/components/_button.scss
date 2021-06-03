@@ -1,0 +1,31 @@
+/* #BUTTON
+   ========================================================================== */
+
+.c-btn {
+    cursor: pointer;
+    height: 2.5rem;
+}
+
+.c-btn--icon {
+    background-color: rgba(var(--white-color-rgb), 0.8);
+    border: none;
+    padding: 0.5rem;
+    width: 2.5rem;
+    min-width: 2.5rem;
+}
+
+.c-btn__icon {
+    fill: var(--blue-color);
+    width: 100%;
+    height: 100%;
+    transition: fill 300ms;
+}
+
+.c-btn {
+    &:hover,
+    &:focus {
+        .c-btn__icon {
+            fill: var(--dark-blue-color);
+        }
+    }
+}

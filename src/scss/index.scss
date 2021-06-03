@@ -1,0 +1,23 @@
+/* Include all SASS partials here, ready for compiling into CSS
+   ========================================================================== */
+
+// SETTINGS & TOOLS
+@import 'settings/colours';
+@import 'settings/fonts';
+
+// GENERIC
+@import 'generic/normalize';
+
+// ELEMENTS
+@import 'elements/headings';
+
+// OBJECTS
+@import 'objects/grid';
+
+// COMPONENTS
+@import 'components/button';
+@import 'components/form';
+@import 'components/header';
+
+// UTILITIES
+@import 'utilities/headings';

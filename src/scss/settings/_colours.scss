@@ -1,0 +1,19 @@
+/* #COLOURS
+   ========================================================================== */
+
+:root {
+    --white-color-rgb: 255, 255, 255;
+    --white-color: rgb(var(--white-color-rgb));
+    --green-color-rgb: 111, 239, 193;
+    --green-color: rgb(var(--green-color-rgb));
+    --blue-color-rgb: 0, 120, 200;
+    --blue-color: rgb(var(--blue-color-rgb));
+    --light-blue-color-rgb: 187, 243, 253;
+    --light-blue-color: rgb(var(--light-blue-color-rgb));
+    --medium-blue-color-rgb: 19, 181, 234;
+    --medium-blue-color: rgb(var(--medium-blue-color-rgb));
+    --dark-blue-color-rgb: 23, 44, 64;
+    --dark-blue-color: rgb(var(--dark-blue-color-rgb));
+    --text-color-rgb: 33, 59, 85;
+    --text-color: rgb(var(--text-color-rgb));
+}
