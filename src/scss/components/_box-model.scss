@@ -1,0 +1,45 @@
+/* #BOX-MODEL
+   ========================================================================== */
+
+.c-box-model {
+    padding: 2rem;
+    position: relative;
+    display: inline-block;
+
+    &::before {
+        color: var(--white-color);
+        position: absolute;
+        top: 0.35rem;
+        left: 0.35rem;
+    }
+}
+
+.c-box-model--margin {
+    background-color: var(--dark-blue-color);
+
+    &::before {
+        content: "Margin";
+    }
+}
+
+.c-box-model--border {
+    background-color: var(--blue-color);
+
+    &::before {
+        content: "Border";
+    }
+}
+
+.c-box-model--padding {
+    background-color: var(--medium-blue-color);
+
+    &::before {
+        content: "Padding";
+    }
+}
+
+.c-box-model__content {
+    margin: 0;
+    background-color: var(--light-blue-color);
+    padding: 1rem;
+}

@@ -9,50 +9,7 @@ The Box Model is a term used in CSS which describes a box that wraps around ever
 
 ## Example
 
-<style>
-    .box-model {
-        margin: 2em;
-        border: 2em solid;
-        padding: 2em;
-        position: relative;
-        box-sizing: border-box;
-    }
-
-    .box-model::before {
-        content: "Margin";
-        mix-blend-mode: difference;
-        position: absolute;
-        top: -4em;
-        left: -4em;
-    }
-
-    .box-model::after {
-        content: "Border";
-        mix-blend-mode: difference;
-        position: absolute;
-        top: -2em;
-        left: -2em;
-    }
-
-    .box-model__text {
-        margin: 0;
-        background-color: black;
-        color: white;
-        text-align: center;
-    }
-    
-    .box-model__text::before {
-        content: "Padding";
-        mix-blend-mode: difference;
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
-</style>
-
-<div class="box-model">
-    <p class="box-model__text">Content</p>
-</div>
+View the responsive layout to see an example.
 
 # JS exercise
 
